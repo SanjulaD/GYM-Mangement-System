@@ -1,0 +1,25 @@
+G:\NSBM\Project\Gym Management System\bin\x64\Debug\netcoreapp3.1\Gym Management System.exe
+G:\NSBM\Project\Gym Management System\bin\x64\Debug\netcoreapp3.1\Gym Management System.dll
+G:\NSBM\Project\Gym Management System\obj\x64\Debug\netcoreapp3.1\Dashboard.g.cs
+G:\NSBM\Project\Gym Management System\obj\x64\Debug\netcoreapp3.1\ForgotPassword.g.cs
+G:\NSBM\Project\Gym Management System\obj\x64\Debug\netcoreapp3.1\InstructorProfile.g.cs
+G:\NSBM\Project\Gym Management System\obj\x64\Debug\netcoreapp3.1\Login.g.cs
+G:\NSBM\Project\Gym Management System\obj\x64\Debug\netcoreapp3.1\MessageBox.g.cs
+G:\NSBM\Project\Gym Management System\obj\x64\Debug\netcoreapp3.1\NewRegistration.g.cs
+G:\NSBM\Project\Gym Management System\obj\x64\Debug\netcoreapp3.1\Register.g.cs
+G:\NSBM\Project\Gym Management System\obj\x64\Debug\netcoreapp3.1\App.g.cs
+G:\NSBM\Project\Gym Management System\obj\x64\Debug\netcoreapp3.1\Gym Management System_MarkupCompile.cache
+G:\NSBM\Project\Gym Management System\obj\x64\Debug\netcoreapp3.1\Gym Management System_MarkupCompile.lref
+G:\NSBM\Project\Gym Management System\obj\x64\Debug\netcoreapp3.1\Dashboard.baml
+G:\NSBM\Project\Gym Management System\obj\x64\Debug\netcoreapp3.1\ForgotPassword.baml
+G:\NSBM\Project\Gym Management System\obj\x64\Debug\netcoreapp3.1\InstructorProfile.baml
+G:\NSBM\Project\Gym Management System\obj\x64\Debug\netcoreapp3.1\Login.baml
+G:\NSBM\Project\Gym Management System\obj\x64\Debug\netcoreapp3.1\MessageBox.baml
+G:\NSBM\Project\Gym Management System\obj\x64\Debug\netcoreapp3.1\NewRegistration.baml
+G:\NSBM\Project\Gym Management System\obj\x64\Debug\netcoreapp3.1\Register.baml
+G:\NSBM\Project\Gym Management System\obj\x64\Debug\netcoreapp3.1\Gym Management System.g.resources
+G:\NSBM\Project\Gym Management System\obj\x64\Debug\netcoreapp3.1\Gym Management System.AssemblyInfoInputs.cache
+G:\NSBM\Project\Gym Management System\obj\x64\Debug\netcoreapp3.1\Gym Management System.AssemblyInfo.cs
+G:\NSBM\Project\Gym Management System\obj\x64\Debug\netcoreapp3.1\Gym Management System.csproj.CoreCompileInputs.cache
+G:\NSBM\Project\Gym Management System\obj\x64\Debug\netcoreapp3.1\Gym Management System.dll
+G:\NSBM\Project\Gym Management System\obj\x64\Debug\netcoreapp3.1\Gym Management System.pdb

@@ -1,0 +1,16 @@
+G:\NSBM\Project\Gym Management System\bin\Debug\netcoreapp3.1\Gym Management System.exe
+G:\NSBM\Project\Gym Management System\bin\Debug\netcoreapp3.1\Gym Management System.dll
+G:\NSBM\Project\Gym Management System\obj\Debug\netcoreapp3.1\Login.g.cs
+G:\NSBM\Project\Gym Management System\obj\Debug\netcoreapp3.1\Register.g.cs
+G:\NSBM\Project\Gym Management System\obj\Debug\netcoreapp3.1\App.g.cs
+G:\NSBM\Project\Gym Management System\obj\Debug\netcoreapp3.1\Gym Management System_MarkupCompile.cache
+G:\NSBM\Project\Gym Management System\obj\Debug\netcoreapp3.1\Gym Management System_MarkupCompile.lref
+G:\NSBM\Project\Gym Management System\obj\Debug\netcoreapp3.1\Login.baml
+G:\NSBM\Project\Gym Management System\obj\Debug\netcoreapp3.1\Register.baml
+G:\NSBM\Project\Gym Management System\obj\Debug\netcoreapp3.1\Gym Management System.g.resources
+G:\NSBM\Project\Gym Management System\obj\Debug\netcoreapp3.1\Gym Management System.AssemblyInfoInputs.cache
+G:\NSBM\Project\Gym Management System\obj\Debug\netcoreapp3.1\Gym Management System.AssemblyInfo.cs
+G:\NSBM\Project\Gym Management System\obj\Debug\netcoreapp3.1\Gym Management System.csproj.CoreCompileInputs.cache
+G:\NSBM\Project\Gym Management System\obj\Debug\netcoreapp3.1\Gym Management System.dll
+G:\NSBM\Project\Gym Management System\obj\Debug\netcoreapp3.1\Gym Management System.pdb
+G:\NSBM\Project\Gym Management System\obj\Debug\netcoreapp3.1\Gym Management System.csprojAssemblyReference.cache
