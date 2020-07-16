@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "v03cMu5G912YgRnP9HC6fRDhivZVPX8dMXOi8kr5j9/Alb9RnOP/YDqjYm+6G9zEQCZWc6/SPfvu3zUrIL8HYg==",
+  "dgSpecHash": "LpQNil2Ws44d7UwmGd8HV420qyVblGYC4EUgrrZsd3TjZzUdsel4X44DfXbFP4vr+KMu5L3e2BvkIPgohkazvQ==",
   "success": true,
   "projectFilePath": "G:\\NSBM\\Project\\Gym Management System\\Gym Management System.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\commonservicelocator\\2.0.4\\commonservicelocator.2.0.4.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\prism.core\\7.2.0.1422\\prism.core.7.2.0.1422.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\prism.wpf\\7.2.0.1422\\prism.wpf.7.2.0.1422.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

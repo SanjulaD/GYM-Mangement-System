@@ -19,10 +19,12 @@ namespace Gym_Management_System
     /// </summary>
     public partial class NewRegistration : Window
     {
+        string uName;
         SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=G:\NSBM\Project\Gym Management System\database\Gym Management.mdf;Integrated Security=True;Connect Timeout=30");
         string gender;
-        public NewRegistration()
+        public NewRegistration(string userName)
         {
+            uName = userName;
             InitializeComponent();
         }
 

@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Prism.Wpf" Version="7.2.0.1422" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
   </ItemGroup>
 
@@ -28,6 +29,10 @@
     <Resource Include="images\image2.png" />
     <Resource Include="images\login_bg_img.png" />
     <Resource Include="images\reg_member-img.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="instructor_images\" />
   </ItemGroup>
 
 </Project>

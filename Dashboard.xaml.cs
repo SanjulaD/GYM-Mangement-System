@@ -20,7 +20,14 @@ namespace Gym_Management_System
     /// </summary>
     public partial class Dashboard : Window
     {
+        string uName;
         SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=G:\NSBM\Project\Gym Management System\database\Gym Management.mdf;Integrated Security=True;Connect Timeout=30");
+        public Dashboard(string userName)
+        {
+            InitializeComponent();
+            uName = userName;
+        }
+
         public Dashboard()
         {
             InitializeComponent();
@@ -29,21 +36,34 @@ namespace Gym_Management_System
 
         private void Dashboard_Loaded(object sender, RoutedEventArgs e)
         {
-            
+            try
+            {
+                con.Open();
+                string q = "select nic from Register_member where id=1";
+                SqlCommand query = new SqlCommand(q, con);
+
+                using (SqlDataReader dr = query.ExecuteReader())
+                {
+                    bool success = dr.Read();
+                    if (success)
+                    {
+                        totNum.Text = dr.GetString(0);
+                    }
+                }
+
+                con.Close();
+            }
+            catch (Exception)
+            {
+                totNum.Text = "Error";
+            }
         }
 
         private void NewRegisterButton_Click(object sender, RoutedEventArgs e)
         {
-            NewRegistration newMemberRegister = new NewRegistration();
+            NewRegistration newMemberRegister = new NewRegistration(uName);
             this.Hide();
             newMemberRegister.Show();
-        }
-
-        private void SignOutButton_Click(object sender, RoutedEventArgs e)
-        {
-            Login login = new Login();
-            this.Hide();
-            login.Show();
         }
 
         private void SignOutButton_Click_1(object sender, RoutedEventArgs e)
@@ -55,7 +75,7 @@ namespace Gym_Management_System
 
         private void MyProfileButton_Click(object sender, RoutedEventArgs e)
         {
-            InstructorProfile insProfile = new InstructorProfile();
+            InstructorProfile insProfile = new InstructorProfile(uName);
             this.Hide();
             insProfile.Show();
         }

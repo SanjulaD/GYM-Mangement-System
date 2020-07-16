@@ -4,6 +4,10 @@ G:\NSBM\Project\Gym Management System\bin\x86\Debug\netcoreapp3.1\Gym Management
 G:\NSBM\Project\Gym Management System\bin\x86\Debug\netcoreapp3.1\Gym Management System.runtimeconfig.dev.json
 G:\NSBM\Project\Gym Management System\bin\x86\Debug\netcoreapp3.1\Gym Management System.dll
 G:\NSBM\Project\Gym Management System\bin\x86\Debug\netcoreapp3.1\Gym Management System.pdb
+G:\NSBM\Project\Gym Management System\bin\x86\Debug\netcoreapp3.1\CommonServiceLocator.dll
+G:\NSBM\Project\Gym Management System\bin\x86\Debug\netcoreapp3.1\Prism.dll
+G:\NSBM\Project\Gym Management System\bin\x86\Debug\netcoreapp3.1\Prism.Wpf.dll
+G:\NSBM\Project\Gym Management System\bin\x86\Debug\netcoreapp3.1\System.Windows.Interactivity.dll
 G:\NSBM\Project\Gym Management System\bin\x86\Debug\netcoreapp3.1\System.Data.SqlClient.dll
 G:\NSBM\Project\Gym Management System\bin\x86\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
 G:\NSBM\Project\Gym Management System\bin\x86\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll

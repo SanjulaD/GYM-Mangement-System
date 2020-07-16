@@ -5,12 +5,83 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Gym_Management_System"
         mc:Ignorable="d"
-        Title="InstructorProfile" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+        Title="Instructor Profile" Height="600" Width="950" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style x:Key="FocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2" SnapsToDevicePixels="true" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" StrokeThickness="1" StrokeDashArray="1 2"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
+        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
+        <Style x:Key="RoundedButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" CornerRadius="20" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="true">
+                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="#ffcd08"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="#FFFFDC50"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="#ffcd08"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Pressed.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Pressed.Border}"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                                <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Image x:Name="InstructorImageBox" HorizontalAlignment="Left" Height="120" Margin="50,44,0,0" VerticalAlignment="Top" Width="150" />
-        <Label Content="" HorizontalAlignment="Left" Height="45" Margin="50,0,0,0" VerticalAlignment="Center" Width="160" FontSize="16" FontFamily="Century Gothic"/>
+        <Image x:Name="pictureBox1" HorizontalAlignment="Left" Height="180" Margin="50,122,0,0" VerticalAlignment="Top" Width="180" Stretch="Fill" />
+        <Button x:Name="AddImageBtn" Style="{DynamicResource RoundedButtonStyle}" Content="Upload Image" HorizontalAlignment="Left" Margin="58,332,0,0" VerticalAlignment="Top" Width="143" Height="46"  FontFamily="Century Gothic" UseLayoutRounding="False" BorderBrush="White" Background="#FFFFD104" Foreground="Black" Cursor="Hand" FontWeight="Normal" Click="AddImageBtn_Click" FontSize="16"/>
+        <Label x:Name="InsName" Content="" HorizontalAlignment="Left" Height="46" Margin="54,424,0,0" VerticalAlignment="Top" Width="160" FontSize="16" FontFamily="Century Gothic" Background="#FFFF1D1D"/>
+        <Rectangle HorizontalAlignment="Left" Height="7" Margin="314,118,0,0" VerticalAlignment="Top" Width="57" Fill="#FFFFD104"/>
+        <Label Content="First Name" HorizontalAlignment="Left" Margin="306,145,0,0" VerticalAlignment="Top" FontFamily="Century Gothic" FontSize="16" Height="30" Width="103" FontWeight="Bold"/>
+        <TextBox x:Name="InsFName" HorizontalAlignment="Left" Height="38" Margin="314,184,0,0" FontSize="16" FontFamily="Century Gothic" Padding="8" Width="272" Background="White" VerticalAlignment="Top"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="306,233,0,0" VerticalAlignment="Top" FontFamily="Century Gothic" FontSize="16" Height="30" Width="103" FontWeight="Bold"/>
+        <TextBox x:Name="InsEmail" HorizontalAlignment="Left" Height="38" Margin="314,0,0,0" FontSize="16" FontFamily="Century Gothic" Padding="8" Width="272" Background="White" VerticalAlignment="Center"/>
+        <Label Content="Phone Number" HorizontalAlignment="Left" Margin="623,233,0,0" VerticalAlignment="Top" FontFamily="Century Gothic" FontSize="16" Height="30" Width="143" FontWeight="Bold"/>
+        <TextBox x:Name="InsPhoneNumber" HorizontalAlignment="Left" Height="38" Margin="630,0,0,0" FontSize="16" FontFamily="Century Gothic" Padding="8" Width="272" Background="White" VerticalAlignment="Center"/>
+        <TextBox x:Name="InsLName" HorizontalAlignment="Left" Height="38" Margin="628,184,0,0" FontSize="16" FontFamily="Century Gothic" Padding="8" Width="272" Background="White" VerticalAlignment="Top"/>
+        <Label Content="Last Name" HorizontalAlignment="Left" Margin="623,145,0,0" VerticalAlignment="Top" FontFamily="Century Gothic" FontSize="16" Height="30" Width="103" FontWeight="Bold"/>
+        <Label Content="NIC " HorizontalAlignment="Left" Margin="306,325,0,0" VerticalAlignment="Top" FontFamily="Century Gothic" FontSize="16" Height="30" Width="103" FontWeight="Bold"/>
+        <TextBox x:Name="InsNIC" HorizontalAlignment="Left" Height="38" Margin="314,363,0,0" FontSize="16" FontFamily="Century Gothic" Padding="8" Width="272" Background="White" VerticalAlignment="Top"/>
+        <Button x:Name="BackButton" Style="{DynamicResource RoundedButtonStyle}" Content="Back" HorizontalAlignment="Left" Margin="774,30,0,0" VerticalAlignment="Top" Width="128" Height="42" FontSize="16"  FontFamily="Century Gothic" UseLayoutRounding="False" BorderBrush="White" Background="#FFD3CDB6" Foreground="Black" Cursor="Hand" FontWeight="Normal" Click="BackButton_Click"/>
+        <Button x:Name="SaveDataBtn" Style="{DynamicResource RoundedButtonStyle}" Content="SAVE" HorizontalAlignment="Left" Margin="342,493,0,0" VerticalAlignment="Top" Width="528" Height="42" FontSize="18"  FontFamily="Century Gothic" UseLayoutRounding="False" BorderBrush="White" Background="#FFFFD104" Foreground="Black" Cursor="Hand" FontWeight="Normal" Click="SaveDataBtn_Click" />
     </Grid>
 </Window>

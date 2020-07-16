@@ -19,6 +19,7 @@ namespace Gym_Management_System
 {
     public partial class Login : Window
     {
+        string userName;
         SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=G:\NSBM\Project\Gym Management System\database\Gym Management.mdf;Integrated Security=True;Connect Timeout=30");
         int count = 0;
         public Login()
@@ -65,8 +66,9 @@ namespace Gym_Management_System
             }
             else
             {
+                userName = loginNameTxt.Text;
                 this.Hide();
-                Dashboard dashboardView = new Dashboard();
+                Dashboard dashboardView = new Dashboard(userName);
                 dashboardView.Show();
             }
         }
