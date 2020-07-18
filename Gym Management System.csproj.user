@@ -18,6 +18,9 @@
     <Compile Update="Dashboard.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Delete_Members.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ForgotPassword.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -36,9 +39,15 @@
     <Compile Update="Register.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Update_Members.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Dashboard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Delete_Members.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ForgotPassword.xaml">
@@ -60,6 +69,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Register.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Update_Members.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -44,3 +44,7 @@ G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\View_Members.g
 G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\View_Members.baml
 G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\MemberMenu.g.cs
 G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\MemberMenu.baml
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Update_Members.g.cs
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Update_Members.baml
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Delete_Members.g.cs
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Delete_Members.baml

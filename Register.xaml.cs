@@ -63,7 +63,7 @@ namespace Gym_Management_System
                     cmd.ExecuteNonQuery();
                     con.Close();
 
-                    MsgProfile msgBox = new MsgProfile("Registered Succefully!!");
+                    MsgProfile msgBox = new MsgProfile("Registered Succefully!! Welcome "+regNameTxt.Text);
                     msgBox.Show();
                 }
             }

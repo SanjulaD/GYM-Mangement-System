@@ -54,9 +54,9 @@ namespace Gym_Management_System
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
-            Dashboard dashboard = new Dashboard();
+            MemberMenu memberMenu = new MemberMenu();
             this.Hide();
-            dashboard.Show();
+            memberMenu.Show();
         }
 
         private void Member_Search_Click(object sender, RoutedEventArgs e)

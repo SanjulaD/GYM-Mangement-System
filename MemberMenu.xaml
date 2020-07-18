@@ -74,10 +74,10 @@
             <Button x:Name="CardNumTwo" Style="{DynamicResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="188,117,0,0" VerticalAlignment="Top" Width="141" Height="103" FontSize="18"  FontFamily="Century Gothic" UseLayoutRounding="False" Cursor="Hand" FontWeight="Normal" Foreground="{x:Null}" Background="White" BorderBrush="{x:Null}" Click="CardNumTwo_Click" >
                 <Label Content="Register&#xA;Members" Height="57" Width="104" FontSize="20" Cursor="Hand"/>
             </Button>
-            <Button x:Name="Card4" Style="{DynamicResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="28,265,0,0" VerticalAlignment="Top" Width="141" Height="103" FontSize="18"  FontFamily="Century Gothic" UseLayoutRounding="False" Cursor="Hand" FontWeight="Normal" BorderBrush="{x:Null}" Foreground="{x:Null}" Background="White" >
+            <Button x:Name="Card4" Style="{DynamicResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="28,265,0,0" VerticalAlignment="Top" Width="141" Height="103" FontSize="18"  FontFamily="Century Gothic" UseLayoutRounding="False" Cursor="Hand" FontWeight="Normal" BorderBrush="{x:Null}" Foreground="{x:Null}" Background="White" Click="Card4_Click" >
                 <Label Content="Delete&#xA;Members" Height="57" Width="104" FontSize="20" Cursor="Hand"/>
             </Button>
-            <Button x:Name="Card5" Style="{DynamicResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="188,265,0,0" VerticalAlignment="Top" Width="141" Height="103" FontSize="18"  FontFamily="Century Gothic" UseLayoutRounding="False" Cursor="Hand" FontWeight="Normal" BorderBrush="{x:Null}" Foreground="{x:Null}" Background="White" >
+            <Button x:Name="Card5" Style="{DynamicResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="188,265,0,0" VerticalAlignment="Top" Width="141" Height="103" FontSize="18"  FontFamily="Century Gothic" UseLayoutRounding="False" Cursor="Hand" FontWeight="Normal" BorderBrush="{x:Null}" Foreground="{x:Null}" Background="White" Click="Card5_Click" >
                 <Label Content="Update&#xA;Members" Height="57" Width="104" FontSize="20" Cursor="Hand"/>
             </Button>
             <Label Content="MEMBER" HorizontalAlignment="Left" Margin="122,0,0,374" VerticalAlignment="Bottom" FontFamily="Century Gothic" FontSize="26" Height="61" Width="121" FontWeight="Normal"/>

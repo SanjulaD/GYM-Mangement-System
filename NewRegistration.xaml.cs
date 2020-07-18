@@ -77,6 +77,8 @@ namespace Gym_Management_System
                     NewMemberNICTxt.Clear();
                     regFeMaleIndex.IsChecked = false;
                     regMaleIndex.IsChecked = false;
+                    NewMemberInstructorID.Clear();
+                    NewMemberInstructorName.Clear();
                 }
             }
             catch (Exception ex)

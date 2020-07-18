@@ -42,5 +42,19 @@ namespace Gym_Management_System
             this.Hide();
             newRegistration.Show();
         }
+
+        private void Card5_Click(object sender, RoutedEventArgs e)
+        {
+            Update_Members update_Members = new Update_Members();
+            this.Hide();
+            update_Members.Show();
+        }
+
+        private void Card4_Click(object sender, RoutedEventArgs e)
+        {
+            Delete_Members delete_Members = new Delete_Members();
+            this.Hide();
+            delete_Members.Show();
+        }
     }
 }
