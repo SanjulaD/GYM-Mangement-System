@@ -27,6 +27,10 @@ namespace Gym_Management_System
             uName = userName;
             InitializeComponent();
         }
+        public NewRegistration()
+        {
+            InitializeComponent();
+        }
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {

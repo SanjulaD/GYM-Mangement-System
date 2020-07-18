@@ -40,3 +40,7 @@ G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Gym Management
 G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Gym Management System.pdb
 G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Gym Management System.genruntimeconfig.cache
 G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Gym Management System.csprojAssemblyReference.cache
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\View_Members.g.cs
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\View_Members.baml
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\MemberMenu.g.cs
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\MemberMenu.baml

@@ -79,5 +79,17 @@ namespace Gym_Management_System
             this.Hide();
             insProfile.Show();
         }
+
+        private void MembershipButton_Click(object sender, RoutedEventArgs e)
+        {
+            MemberMenu memberMenu = new MemberMenu();
+            this.Hide();
+            memberMenu.Show();
+        }
+
+        private void CardNumOne_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

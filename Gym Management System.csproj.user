@@ -24,6 +24,9 @@
     <Compile Update="InstructorProfile.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="MemberMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="MsgProfile.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -45,6 +48,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Login.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MemberMenu.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MsgProfile.xaml">
