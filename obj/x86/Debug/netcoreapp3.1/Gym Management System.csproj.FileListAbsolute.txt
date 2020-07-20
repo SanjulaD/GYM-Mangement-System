@@ -54,3 +54,11 @@ G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Gym Management
 G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Gym Management System.csprojAssemblyReference.cache
 G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\ChatBot_Loader.g.cs
 G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\ChatBot_Loader.baml
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\InstructorMenu.g.cs
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\InstructorMenu.baml
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\View_Instructors.g.cs
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\View_Instructors.baml
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Update_Instructors.g.cs
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Update_Instructors.baml
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Delete_Instructors.g.cs
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Delete_Instructors.baml

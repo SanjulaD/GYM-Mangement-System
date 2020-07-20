@@ -24,10 +24,16 @@
     <Compile Update="Dashboard.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Delete_Instructors.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Delete_Members.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ForgotPassword.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="InstructorMenu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="InstructorProfile.xaml.cs">
@@ -45,7 +51,13 @@
     <Compile Update="Register.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Update_Instructors.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Update_Members.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View_Instructors.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -59,10 +71,16 @@
     <Page Update="Dashboard.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Delete_Instructors.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Delete_Members.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ForgotPassword.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="InstructorMenu.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="InstructorProfile.xaml">
@@ -83,7 +101,13 @@
     <Page Update="Register.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Update_Instructors.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Update_Members.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View_Instructors.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

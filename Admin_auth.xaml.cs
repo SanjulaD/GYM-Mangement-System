@@ -17,9 +17,11 @@ namespace Gym_Management_System
     /// </summary>
     public partial class Admin_auth : Window
     {
-        public Admin_auth()
+        string path;
+        public Admin_auth(string pathName)
         {
             InitializeComponent();
+            path = pathName;
         }
 
         private void LoginButton_Click(object sender, RoutedEventArgs e)
@@ -29,9 +31,18 @@ namespace Gym_Management_System
                 AdminloginNameTxt.Clear();
                 AdminloginPasswordTxt.Clear();
 
-                ChatBot_Loader chatBot_Loader = new ChatBot_Loader();
-                this.Hide();
-                chatBot_Loader.Show();
+                if(path == "help") 
+                {
+                    ChatBot_Loader chatBot_Loader = new ChatBot_Loader();
+                    this.Hide();
+                    chatBot_Loader.Show();
+                }
+                if(path == "instructor")
+                {
+                    InstructorMenu instructorMenu = new InstructorMenu();
+                    this.Hide();
+                    instructorMenu.Show();
+                }
             }
             else
             {

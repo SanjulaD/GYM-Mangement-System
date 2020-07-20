@@ -3,14 +3,18 @@
 FG:\NSBM\Project\Gym Management System\Admin_auth.xaml;;
 FG:\NSBM\Project\Gym Management System\ChatBot_Loader.xaml;;
 FG:\NSBM\Project\Gym Management System\Dashboard.xaml;;
+FG:\NSBM\Project\Gym Management System\Delete_Instructors.xaml;;
 FG:\NSBM\Project\Gym Management System\Delete_Members.xaml;;
 FG:\NSBM\Project\Gym Management System\ForgotPassword.xaml;;
+FG:\NSBM\Project\Gym Management System\InstructorMenu.xaml;;
 FG:\NSBM\Project\Gym Management System\InstructorProfile.xaml;;
 FG:\NSBM\Project\Gym Management System\Login.xaml;;
 FG:\NSBM\Project\Gym Management System\MemberMenu.xaml;;
 FG:\NSBM\Project\Gym Management System\MsgProfile.xaml;;
 FG:\NSBM\Project\Gym Management System\NewRegistration.xaml;;
 FG:\NSBM\Project\Gym Management System\Register.xaml;;
+FG:\NSBM\Project\Gym Management System\Update_Instructors.xaml;;
 FG:\NSBM\Project\Gym Management System\Update_Members.xaml;;
+FG:\NSBM\Project\Gym Management System\View_Instructors.xaml;;
 FG:\NSBM\Project\Gym Management System\View_Members.xaml;;
 

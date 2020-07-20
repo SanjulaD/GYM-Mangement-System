@@ -67,7 +67,7 @@
         <Canvas HorizontalAlignment="Center" Height="253" VerticalAlignment="Top" Width="948" Background="#FFE0E0E0">
             <Label Content="Enter Member Name" HorizontalAlignment="Left" Margin="71,83,0,0" VerticalAlignment="Top" FontFamily="Century Gothic" FontSize="18" Height="40" Width="202" FontWeight="Bold"/>
 
-            <TextBox x:Name="MemberNameSearch" HorizontalAlignment="Left" Height="40" Margin="39,134,0,0" FontSize="16" FontFamily="Century Gothic" Padding="8" Width="248" Background="White" VerticalAlignment="Top" KeyUp="MemberNameSearch_KeyUp" />
+            <TextBox x:Name="MemberNameSearch" HorizontalAlignment="Left" Height="40" Margin="39,134,0,0" FontSize="16" FontFamily="Century Gothic" Padding="8" Width="248" Background="White" VerticalAlignment="Top" KeyUp="MemberNameSearch_KeyUp" TextChanged="MemberNameSearch_TextChanged" />
             <DataGrid x:Name="dataGridView1" SelectedCellsChanged="selectedCellsChanged" HorizontalAlignment="Left" Height="160" Margin="360,54,0,0" VerticalAlignment="Top" Width="558" FontFamily="Century Gothic" Cursor="Arrow" Background="#FFF0F0F0" Foreground="Black" BorderBrush="#FFFFD104" GridLinesVisibility="All" HorizontalGridLinesBrush="#FF535252" VerticalGridLinesBrush="#FF8B8B8B" FontSize="16"/>
 
         </Canvas>

@@ -101,7 +101,14 @@ namespace Gym_Management_System
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Admin_auth admin_Auth = new Admin_auth();
+            Admin_auth admin_Auth = new Admin_auth("help");
+            this.Hide();
+            admin_Auth.Show();
+        }
+
+        private void InstructorButton_Click(object sender, RoutedEventArgs e)
+        {
+            Admin_auth admin_Auth = new Admin_auth("instructor");
             this.Hide();
             admin_Auth.Show();
         }

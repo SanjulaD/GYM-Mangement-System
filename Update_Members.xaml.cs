@@ -124,5 +124,10 @@ namespace Gym_Management_System
             this.Hide();
             memberMenu.Show();
         }
+
+        private void MemberNameSearch_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
