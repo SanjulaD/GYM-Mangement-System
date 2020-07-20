@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 G:\NSBM\Project\Gym Management System\App.xaml
-7-51913203
+13-1887173830
 
-11-1372686573
-1921654412462
-Dashboard.xaml;ForgotPassword.xaml;InstructorProfile.xaml;Login.xaml;MessageBox.xaml;NewRegistration.xaml;Register.xaml;
+18-1732616026
+197-1264305635
+Admin_auth.xaml;Dashboard.xaml;Delete_Members.xaml;ForgotPassword.xaml;InstructorProfile.xaml;Login.xaml;MainWindow.xaml;MemberMenu.xaml;MsgProfile.xaml;NewRegistration.xaml;Register.xaml;Update_Members.xaml;View_Members.xaml;
 
 False
 

@@ -1,18 +1,3 @@
-G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Dashboard.g.cs
-G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Delete_Members.g.cs
-G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\ForgotPassword.g.cs
-G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\InstructorProfile.g.cs
-G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Login.g.cs
-G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\MainWindow.g.cs
-G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\MemberMenu.g.cs
-G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\MsgProfile.g.cs
-G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\NewRegistration.g.cs
-G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Register.g.cs
-G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Update_Members.g.cs
-G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\View_Members.g.cs
-G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\App.g.cs
-G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Gym Management System_MarkupCompile.cache
-G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Gym Management System_MarkupCompile.lref
 G:\NSBM\Project\Gym Management System\bin\x86\Debug\netcoreapp3.1\Gym Management System.exe
 G:\NSBM\Project\Gym Management System\bin\x86\Debug\netcoreapp3.1\Gym Management System.deps.json
 G:\NSBM\Project\Gym Management System\bin\x86\Debug\netcoreapp3.1\Gym Management System.runtimeconfig.json
@@ -30,6 +15,23 @@ G:\NSBM\Project\Gym Management System\bin\x86\Debug\netcoreapp3.1\runtimes\win-x
 G:\NSBM\Project\Gym Management System\bin\x86\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 G:\NSBM\Project\Gym Management System\bin\x86\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\MainWindow.baml
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Admin_auth.g.cs
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Dashboard.g.cs
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Delete_Members.g.cs
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\ForgotPassword.g.cs
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\InstructorProfile.g.cs
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Login.g.cs
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\MainWindow.g.cs
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\MemberMenu.g.cs
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\MsgProfile.g.cs
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\NewRegistration.g.cs
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Register.g.cs
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Update_Members.g.cs
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\View_Members.g.cs
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\App.g.cs
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Gym Management System_MarkupCompile.cache
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Gym Management System_MarkupCompile.lref
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Admin_auth.baml
 G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Dashboard.baml
 G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Delete_Members.baml
 G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\ForgotPassword.baml
@@ -50,3 +52,5 @@ G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Gym Management
 G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Gym Management System.pdb
 G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Gym Management System.genruntimeconfig.cache
 G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\Gym Management System.csprojAssemblyReference.cache
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\ChatBot_Loader.g.cs
+G:\NSBM\Project\Gym Management System\obj\x86\Debug\netcoreapp3.1\ChatBot_Loader.baml

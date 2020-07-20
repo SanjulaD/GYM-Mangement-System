@@ -83,7 +83,8 @@ namespace Gym_Management_System
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message.ToString());
+                MsgProfile msgBox = new MsgProfile(ex.Message.ToString());
+                msgBox.Show();
             }
         }
     }

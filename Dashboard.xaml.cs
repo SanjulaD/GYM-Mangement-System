@@ -91,5 +91,19 @@ namespace Gym_Management_System
         {
 
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Login login = new Login();
+            this.Hide();
+            login.Show();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Admin_auth admin_Auth = new Admin_auth();
+            this.Hide();
+            admin_Auth.Show();
+        }
     }
 }

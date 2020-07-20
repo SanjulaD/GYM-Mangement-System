@@ -10,7 +10,18 @@
 
   <ItemGroup>
     <None Remove="3824058.jpg" />
+    <None Remove="BotLogo.png" />
+    <None Remove="chatbot.png" />
+    <None Remove="images\BotLogo.png" />
     <None Remove="images\forgotpw.png" />
+    <None Remove="images\icons\chatbot.png" />
+    <None Remove="images\icons\gym.png" />
+    <None Remove="images\icons\house.png" />
+    <None Remove="images\icons\instructor.png" />
+    <None Remove="images\icons\member.png" />
+    <None Remove="images\icons\payment.png" />
+    <None Remove="images\icons\signout.png" />
+    <None Remove="images\icons\user.png" />
     <None Remove="images\image2.png" />
     <None Remove="images\image2.svg" />
     <None Remove="images\login_bg_img.png" />
@@ -25,7 +36,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="images\BotLogo.png" />
     <Resource Include="images\forgotpw.png" />
+    <Resource Include="images\icons\chatbot.png" />
+    <Resource Include="images\icons\gym.png" />
+    <Resource Include="images\icons\house.png" />
+    <Resource Include="images\icons\instructor.png" />
+    <Resource Include="images\icons\member.png" />
+    <Resource Include="images\icons\payment.png" />
+    <Resource Include="images\icons\signout.png" />
+    <Resource Include="images\icons\user.png" />
     <Resource Include="images\image2.png" />
     <Resource Include="images\login_bg_img.png" />
     <Resource Include="images\reg_member-img.png" />
